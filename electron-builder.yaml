@@ -4,6 +4,10 @@ directories:
 appId: edu.mit.scratch.scratch-desktop
 productName: "Scratch 3"
 publish: # empty provider list = don't publish
+linux:
+  icon: buildResources/ScratchDesktop.icns
+  target:
+    - deb
 mac:
   category: public.app-category.education
   entitlements: buildResources/entitlements.mac.plist
